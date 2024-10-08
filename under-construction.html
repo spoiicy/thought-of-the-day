@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Under Construction</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #f39c12, #e74c3c);
+      color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      animation: bounce 2s infinite;
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    /* Add a subtle animation to the h1 */
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+    /* Position "Thought of the Day" in the top left corner */
+    .app-name {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    /* Hide the link completely */
+    .hidden-link {
+      display: none;
+    }
+
+    /* Footer for additional touch */
+    footer {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <!-- Application Name in Top Left Corner -->
+  <div class="app-name">Thought of the Day</div>
+
+  <main>
+    <h1>🚧 Under Construction 🚧</h1>
+    <p>We're working hard to bring something awesome here. Stay tuned!</p>
+
+    <!-- Hidden GitHub repo link -->
+    <a href="https://github.com/your-repo-link" class="hidden-link">GitHub Repo</a>
+  </main>
+
+  <!-- Footer with an additional message -->
+  <footer>
+    &copy; 2024 - We'll be back soon!
+  </footer>
+</body>
+</html>
+
